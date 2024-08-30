@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>F1Karts.cl</title>
+</head>
+<body>
+    <div class="contenedor">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="mx-auto text-center">
+                <img src="assets/imgs/f1.png" alt="Logo F1" class="logo">
+                <div class="titulo">F1Karts</div>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Catálogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ofertas</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="cuerpo">
+            <section class="vehiculos container">
+                <div class="principal">Ordenar por:
+                    <select class="form-select form-select-sm" aria-label="Small select example">
+                        <option selected>Precio</option>
+                        <option value="1">Campeonatos</option>
+                        <option value="2">Color</option>
+                        <option value="3">Marca</option>
+                        <option value="4">Velocidad</option>
+                        <option value="5">Patrocinadores</option>
+                    </select>
+                </div>
+
+                <div class="catalogo row justify-content-center">
+                <div class="card col-md-4 mb-3">
+                <img src="assets/imgs/mercedes.webp" alt="kart mercedes" class="img-fluid">
+                <p class="car">Marca: Mercedes</p>
+                <button class="btn btn-primary">Ver más</button>
+            </div>
+            <div class="card col-md-4 mb-3">
+                <img src="assets/imgs/redbull.webp" alt="kart redbull" class="img-fluid">
+                <p class="car">Marca: RedBull</p>
+                <button class="btn btn-primary">Ver más</button>
+            </div>
+            <div class="card col-md-4 mb-3">
+                <img src="assets/imgs/mclaren.webp" alt="kart mclaren" class="img-fluid">
+                <p class="car">Marca: McLaren</p>
+                <button class="btn btn-primary">Ver más</button>
+            </div>
+            <div class="card col-md-4 mb-3">
+                <img src="assets/imgs/ferrari.webp" alt="kart ferrari" class="img-fluid">
+                <p class="car">Marca: Ferrari</p>
+                <button class="btn btn-primary">Ver más</button>
+            </div>
+            <div class="card col-md-4 mb-3">
+                <img src="assets/imgs/astonmartin.webp" alt="kart aston martin" class="img-fluid">
+                <p class="car">Marca: Aston Martin</p>
+                <button class="btn btn-primary">Ver más</button>
+            </div>
+            <div class="card col-md-4 mb-3">
+                <img src="assets/imgs/alpine.webp" alt="kart alpine" class="img-fluid">
+                <p class="car">Marca: Alpine</p>
+                <button class="btn btn-primary">Ver más</button>
+            </div>
+            <div class="card col-md-4 mb-3">
+                <img src="assets/imgs/hass.webp" alt="kart hass" class="img-fluid">
+                <p class="car">Marca: Hass</p>
+                <button class="btn btn-primary">Ver más</button>
+            </div>
+            <div class="card col-md-4 mb-3">
+                <img src="assets/imgs/visacash.webp" alt="kart alpha tauri" class="img-fluid">
+                <p class="car">Marca: Alpha Tauri</p>
+                <button class="btn btn-primary">Ver más</button>
+            </div>
+            <div class="card col-md-4 mb-3">
+                <img src="assets/imgs/williams.webp" alt="kart williams" class="img-fluid">
+                <p class="car">Marca: Williams</p>
+                <button class="btn btn-primary">Ver más</button>
+            </div>
+                </div>
+            </section>
+        </div>
+        <footer class="bg-dark text-white py-3">
+            <div class="container text-center">
+                <p>
+                    © Diego.dev2024 - Todos los Derechos Reservados |
+                    <a href="https://wa.me/56999082676" class="text-white" target="_blank">
+                        <i class="bi bi-whatsapp"></i> WhatsApp
+                    </a>
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
